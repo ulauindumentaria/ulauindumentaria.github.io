@@ -37,7 +37,13 @@
     "versionFirst": "4.8.3",
     "siteFonts": [],
     "uniqCompNum": 18,
-    "versionPublish": "4.8.3"
+    "versionPublish": "4.8.3",
+    "favicon": "@PROJECT_PATH@/assets/images/ulau-logo-min-119x119.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
