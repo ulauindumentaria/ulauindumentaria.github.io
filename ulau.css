@@ -1,0 +1,57 @@
+#header12-1t, #header12-18{
+    padding: 5% 7%;
+}
+
+.icons-media-container.mbr-white{
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#marcas{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    }
+
+
+@media (max-width: 760px) {
+    .icons-media-container.mbr-white{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #marcas{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        }
+    
+}
+.whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 999;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid green;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+    font-size: 40px;
+    text-decoration: none;
+    color: green;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 5px -1px rgba;
+}
+/*
+.inst__images {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+@media (max-width: 2000px) {
+    .inst-card.slide{
+        width: 100%;
+        height: auto;
+        }
+}
+*/
