@@ -8,6 +8,7 @@ var categories={
 }
 /* funcion que busca los productos de la tienda de acuerdo a el parametro que se le pasa*/
 function setProducts(category){
+    console.log("el nuevo")
     $.getJSON(`https://allorigins.me/get?url=https%3A//${categories[category]}&callback=?`, function(data){
         console.log("Facebook cargado")
         var htmlAdd=""
