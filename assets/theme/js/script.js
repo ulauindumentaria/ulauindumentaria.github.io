@@ -341,8 +341,7 @@
                 if (parsedUrl && (/youtube/g.test(parsedUrl[3]) || /vimeo/g.test(parsedUrl[3]))) {
                     // youtube
                     if (parsedUrl && /youtube/g.test(parsedUrl[3])) {
-                        var previewURL = 'http' + ('https:' === location.protocol ? 's' : '') + ':';
-                        previewURL += '//img.youtube.com/vi/' + parsedUrl[6] + '/maxresdefault.jpg';
+                        var previewURL = "assets/images/portada.jpg"
 
                         $('<img>').on('load', function() {
                             if (120 === (this.naturalWidth || this.width)) {
