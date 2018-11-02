@@ -341,7 +341,8 @@
                 if (parsedUrl && (/youtube/g.test(parsedUrl[3]) || /vimeo/g.test(parsedUrl[3]))) {
                     // youtube
                     if (parsedUrl && /youtube/g.test(parsedUrl[3])) {
-                        var previewURL = 'https://hellomariaq.files.wordpress.com/2015/10/hollister_by_thealphaprime-d4m1xbb.jpg';
+                        var previewURL = 'http' + ('https:' === location.protocol ? 's' : '') + ':';
+                        previewURL += '//img.youtube.com/vi/' + parsedUrl[6] + '/maxresdefault.jpg';
 
                         $('<img>').on('load', function() {
                             if (120 === (this.naturalWidth || this.width)) {

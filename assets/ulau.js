@@ -29,10 +29,10 @@ var radios = $( ".facebookShop" )
 for (let i = 0; i < radios.length; i++) {
     radios[i].onclick=function(e){
         document.getElementById("prueba").innerHTML=""
-        document.getElementById("loading").innerHTML="<img  src='loading.gif' alt=''>"
+        document.getElementById("loading").innerHTML="<img  class='imageLoading' src='assets/loading.gif' alt=''>"
         setProducts(e.target.name)
     };
 }
 /*Seteo el default */
-document.getElementById("loading").innerHTML="<img  src='loading.gif' alt=''>"
+document.getElementById("loading").innerHTML="<img  class='imageLoading' src='assets/loading.gif' alt=''>"
 setProducts("remeras")

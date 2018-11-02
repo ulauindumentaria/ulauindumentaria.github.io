@@ -21,6 +21,9 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         }
+    .imageLoading{
+        width: 25%
+    }
     
 }
 .whatsapp {
@@ -43,15 +46,63 @@
     -moz-box-shadow: 0 4px 5px -1px rgba(0,0,0,0.5);
     box-shadow: 0 4px 5px -1px rgba;
 }
-/*
-.inst__images {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+
+
+._uwr {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-@media (max-width: 2000px) {
-    .inst-card.slide{
-        width: 100%;
-        height: auto;
-        }
+
+#prueba{
+    width: 80%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
 }
-*/
+
+
+.card{
+    margin: 5%
+}
+
+#catalog-div h5{
+    font-size: 1em;
+    line-height: 1.618em;
+}
+ 
+#catalog-div p{
+    font-size: 1em;
+}
+
+@media all and (min-width: 960px) {
+    #catalog-div{
+        font-size: 18px;
+    }
+
+}
+ 
+@media all and (max-width: 959px) and (min-width: 600px) {
+    #catalog-div{
+        font-size: 16px;
+    }
+    #prueba{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+ 
+@media all and (max-width: 599px) and (min-width: 320px) {
+    #catalog-div{
+        font-size: 12px;
+    }
+    #catalog-div h5{
+        display:none;
+    }
+    #prueba{
+        grid-template-columns: repeat(3,1fr);
+    }
+ 
+}
+
